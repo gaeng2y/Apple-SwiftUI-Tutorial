@@ -2,7 +2,7 @@
 //  LandmarksUITestsLaunchTests.swift
 //  LandmarksUITests
 //
-//  Created by Kyeongmo Yang on 2023/07/27.
+//  Created by gaeng2 on 5/28/25.
 //
 
 import XCTest
@@ -17,6 +17,7 @@ final class LandmarksUITestsLaunchTests: XCTestCase {
         continueAfterFailure = false
     }
 
+    @MainActor
     func testLaunch() throws {
         let app = XCUIApplication()
         app.launch()
